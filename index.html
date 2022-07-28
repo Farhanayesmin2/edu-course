@@ -1,63 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Edu Course</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <!-- nav menu starts -->
-    <section>
-      <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container">
-          <a class="navbar-brand fw-bolder fs-2" href="#"
-            ><span class="text-info">Edu </span> Course</a
-          >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-around"
-            id="navbarNavAltMarkup"
-          >
-            <div class="navbar-nav fw-bolder fs-5">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link active" href="#">Courses</a>
-              <a class="nav-link active" href="#">Success</a>
-              <a class="nav-link active" href="#">About Us</a>
-            </div>
-            <div>
-              <button type="button" class="btn btn-outline-info fw-bolder px-3">
-                Register
-              </button>
-              <button type="button" class="btn btn-outline-info fw-bolder px-3">
-                Sign In
-              </button>
-            </div>
-          </div>
-        </div>
-      </nav>
-      <!-- nav menu end-->
-    </section>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+</head>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+<body>
+    <!-- nav menu starts -->
+    <header>
+        <section>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container">
+                    <a class="navbar-brand fw-bolder fs-2" href="#"><span class="text-info">Edu </span> Course</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-around" id="navbarNavAltMarkup">
+                        <div class="navbar-nav fw-bolder fs-5">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" href="#">Courses</a>
+                            <a class="nav-link active" href="#">Success</a>
+                            <a class="nav-link active" href="#">About Us</a>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-outline-info fw-bolder px-3">
+                                Register
+                            </button>
+                            <button type="button" class="btn btn-outline-info fw-bolder px-3">
+                                Sign In
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+ <!-- nav menu end-->
+<section class="mb-5">
+ <!-- carousel start -->
+  <!-- carousel footer indicator three buttons start-->
+    <div id="myCarousel" class="carousel" data-bs-ride="carousel">
+       <div class="carousel-indicators">
+             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
+             aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"
+             aria-label="Slide 3"></button>
+        </div>
+   <!-- carousel three images start-->
+     <div class="carousel-inner">
+          <div class="carousel-item active position-relative">
+             <img src="images/cover/cover-1.png" class="d-block w-100" alt="" />
+             <div
+                 class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+                 <h1 class="fw-bold display-2">Get Started Digital Learning</h1>
+                    <p>
+                      It is a long established fact that a reader will be distracted
+                      by the readable <br />
+                      content of a page when looking at its layout.
+                    </p>
+                    <p>
+                     <a class="btn btn-lg btn-light text-info fw-bolder fs-4 border-info border-5"
+                     href="#">Join Now</a>
+                    </p>
+             </div>
+            </div>
+            <div class="carousel-item position-relative">
+                <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="" />
+                <div
+                    class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+                    <h1 class="fw-bold display-2">Get Started Digital Learning</h1>
+                    <p>
+                     It is a long established fact that a reader will be distracted
+                     by the readable <br />
+                     content of a page when looking at its layout.
+                    </p>
+                    <p>
+                     <a class="btn btn-lg btn-light text-info fw-bolder fs-4 border-info border-5"
+                     href="#">Join Now</a>
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item position-relative">
+                <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="" />
+                <div
+                     class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
+                     <h1 class="fw-bold display-2">Get Started Digital Learning</h1>
+                    <p>
+                     It is a long established fact that a reader will be distracted
+                     by the readable <br />
+                     content of a page when looking at its layout.
+                    </p>
+                    <p>
+                     <a class="btn btn-lg btn-light text-info fw-bolder fs-4 border-info border-5"
+                     href="#">Join Now</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+                <!-- carousel previous & next button -->
+               <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+        </section> <!-- carousel end -->
+    </header>
+   <main>  <!-- Discover Our Popular section  starts -->
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
