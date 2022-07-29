@@ -1,10 +1,4 @@
-.toast-gift{ 
-  
-    position: fixed;
-    width: 250px;
-    border: 5px solid rgb(0, 183, 255);
-    border-top: none;
-    border-right: none;
-    border-bottom: none;
-
+.course-image{
+    height: 400px;
+    width: 100%;
 }
